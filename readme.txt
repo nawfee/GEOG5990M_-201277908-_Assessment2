@@ -7,7 +7,7 @@ The first method is 'totalvol' which return the total volume of the iceberg. Wit
 The next method is 'totalmass'. The total mass of the iceberg above water is calculated using, iceberg mass = totalvol x density, here density of ice is 900 kg/m3. 
 Assuming only 10% of the iceberg is above water, the total volume of iceberg is calculated, by multiplying the iceberg mass by 10.
 The final method is 'towing ability', here the towing ability of the iceberg is assessd by setting up the condition that, if the iceberg is equal or above 36 million kg it can't be pulled out in time. 
-
+For setting up a GUI (Graphical User Interface) tkinter module is imported and used to create a window titled, 'Iceber Towing App.' Three buttons are set within the window and bound to the three functions, totalvol, totalmass and towingability. 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### Running the application
 To run the data analysis application, the IcebergTowingApp has to be open in Spyder. The 'Run' button has to be pressed to get the output in Ipython console.
